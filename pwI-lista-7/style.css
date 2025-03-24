@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    overflow: hidden;
+
+}
+
+header{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.card img{
+    width: 230px;
+    align-items: center;
+    height: 70%;
+}
+
+#celta{;
+}
+
+.card{
+    margin: 20px;
+    background-color: grey;
+    padding: 35px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
