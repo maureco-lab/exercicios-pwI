@@ -27,16 +27,24 @@ header{
     height: 70%;
 }
 
-#celta{;
-}
-
 .card{
     margin: 20px;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     padding: 35px;
     text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
 }
 
 h2{
     text-align: center;
+    padding: 8px;
+    margin: 2px;
+
+}
+
+p{
+    padding: 5px;
+    margin-bottom: 5px;
 }
