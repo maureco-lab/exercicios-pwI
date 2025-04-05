@@ -57,3 +57,111 @@ header p{
     font-size: 1.1rem;
     padding: 79px;
 }
+
+.skills {
+    background-color: #edebeb;
+    padding: 50px 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.skills h2{
+    margin-bottom: 20px;
+}
+
+.skill{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-image: url(src/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #040c27;
+}
+
+
+.projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: inline-block;
+    width: 40%;
+    margin: 10px 2.5%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-image: url(src/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #040c27;
+}
+.project a {
+    color: #faf7f7;
+}
+
+
+.contact {
+    padding: 50px 0;
+    font-size: 1.5;
+    text-align: center;
+    background-color: #edebeb;
+}
+
+.contact h2{
+    margin-bottom: 20px;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #c6c6c6;
+    border-radius: 10px ;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #03103b;
+    color: #fff;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #03103b;
+}
+
+
+footer {
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-image: url(src/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0 ;
+}
