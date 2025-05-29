@@ -7,7 +7,7 @@
         }
 
         body {
-            background: linear-gradient(to bottom left, #0e0422, #3d2379);
+            background: linear-gradient(to bottom left, red, black);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -66,9 +66,9 @@
         }
 
         .buttons .operator {
-            background-color: #5c2d91;
+            background-color: #bf2121;
         }
 
         .buttons .operator:hover {
-            background-color: #7a3dbd;
+            background-color: #1d1c1c;
         }
