@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <label class="toggle" for="menu-toggle"> <i class="fa-solid fa-bars"></i> </label>
+        <input type="checkbox" id="menu-toggle">
+        <nav>
+            <label class="toggle" for="menu-toggle"> <i class="fa-solid fa-xmark"> </i></label>
+            <ul>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>Sobre</li>
+                </a>
+                <a href="#contact">
+                    <li>Contato</li>
+                </a>
+                <a href="#login">
+                    <li>Login</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Disciplina PW-I</h1>
+            <p>"Turma 1º H - Web: Conectando sonhos e códigos."</p>
+            <img src="./assets/home.png" alt="Home">
+        </section>
+
+        <section id="about">
+            <h2>Sobre</h2>
+            <p>"A disciplina de Programação Web I (PW-1) é uma oportunidade única para os alunos do 1º ano do Ensino
+                Médio desenvolverem habilidades essenciais na criação de aplicações web. Com um enfoque prático e
+                inovador, os estudantes aprenderão a construir sites dinâmicos e interativos, utilizando as mais
+                recentes tecnologias e ferramentas do mercado. Ao longo do curso, eles serão desafiados a trabalhar em
+                equipe, resolver problemas complexos e aplicar conceitos de design e usabilidade.</p>
+            <img src="./assets/about.png" alt="about">
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>
+                Fulano De Tal <br>
+                📱 (11) 99999-8888 <br>
+                ✉️ fulano@etec.com.br
+            </p>
+
+            <img src="./assets/contact.png" alt="contact">
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form class="form-login" action="">
+                <label for="">Usuário</label>
+                <input type="email" placeholder="Digite o seu E-mail">
+
+                <label for="">Senha</label>
+                <input type="password" placeholder="Digite a sua Senha">
+
+                <input type="button" value="Entrar">
+            </form>
+            <img src="./assets/login.png" alt="login">
+        </section>
+    </main>
+</body>
+
+</html>
